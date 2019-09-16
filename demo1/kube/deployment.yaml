@@ -93,18 +93,11 @@ spec:
     - uri:
       exact: /welcome
     route:
-#      - destination:
-#          host: demo1-service
-#          port:
-#            number: 8080
-#          subset: v1
-#        weight: 0
       - destination:
           host: demo1-service
           port:
             number: 8080
-          subset: v2
-#        weight: 100
+          subset: v1
 
 ---
 

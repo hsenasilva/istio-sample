@@ -1,0 +1,28 @@
+# Route traffic 80%  to v1 and 20% to v2
+
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: demo1-service
+spec:
+  hosts:
+    - "*"
+  gateways:
+    - demo1-service-gateway
+  http:
+    - match:
+        - uri:
+          exact: /welcome
+      route:
+        - destination:
+            host: demo1-service
+            port:
+              number: 8080
+            subset: v1
+          weight: 80
+        - destination:
+            host: demo1-service
+            port:
+              number: 8080
+            subset: v2
+        weight: 20
