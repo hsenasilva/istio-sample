@@ -29,3 +29,5 @@ To work on the sample code, you'll need to clone project's repository to your
 local computer. If you haven't, do that first.
 
 1. Install Docker. See https://docs.docker.com/install/
+
+1. Install Minikube. See https://kubernetes.io/docs/tasks/tools/install-minikube/
