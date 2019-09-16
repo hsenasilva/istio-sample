@@ -1,4 +1,4 @@
-Istio Sample
+Istio Sample (Work in Progress)
 ==================================================
 
 This sample code helps get you started with Istio Service Mesh
