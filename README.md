@@ -20,7 +20,7 @@ This sample includes:
 
 * README.md - this file
 * pom.xml - this file is the Maven Project Object Model for the web service
-* demo1 - this directory contains your Kotlin Service source files
+* demo1 - this directory contains your Kotlin Spring Boot app source files
 
 Getting Started
 ---------------
