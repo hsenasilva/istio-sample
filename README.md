@@ -134,4 +134,4 @@ local computer. If you haven't, do that first.
 
 
 
-**For a while**, That's All Folks! :)
+**For a while**, That's all Folks! :)
