@@ -46,7 +46,7 @@ local computer. If you haven't, do that first.
 
         $ for i in install/kubernetes/helm/istio-init/files/crd*yaml; do kubectl apply -f $i; done
 
-6.1. If you have the folling error: 
+6.1. If you have the following error: 
         
         error: SchemaError(io.k8s.api.networking.v1beta1.IngressList): invalid object doesn't have additional properties
 
