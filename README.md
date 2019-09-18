@@ -114,7 +114,7 @@ local computer. If you haven't, do that first.
 
         $ minikube dashboard
 
-13. When all the Workloads Statuses section in Kubernetes are green, get the result of EXTERNAL-IP from MetalLB and run:
+13. When all the Workloads Statuses section in Kubernetes are green, get the result of EXTERNAL-IP (step 8.1) from MetalLB and run:
 
         $ curl -v YOUR-EXTERNAL-IP-HERE/welcome
 
