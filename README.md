@@ -1,7 +1,7 @@
 Istio Sample
 ==================================================
 
-This sample code helps get you started with Istio Service Mesh
+This sample code helps get you started with Istio [Service Mesh](https://philcalcado.com/2017/08/03/pattern_service_mesh.html)
 
 Related technologies: 
 
